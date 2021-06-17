@@ -1,0 +1,50 @@
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav .nav-link {
+    color: white;
+}
+
+.nav .nav-link:hover,
+.nav-link:focus {
+    border-bottom-color: orange;
+    color: orange;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.navbar{
+    margin-bottom: 4rem;
+}
+
+.float-end .float{
+    color: black;
+}
+
+.float-end .float:hover,
+.float-end .float:focus{
+    color: orange;
+}
+
+.space{
+    height: 4rem;
+}
+
+.small{
+    color: orange;
+}

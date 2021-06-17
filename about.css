@@ -1,0 +1,61 @@
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav .nav-link {
+    color: white;
+}
+
+.nav .nav-link:hover,
+.nav-link:focus {
+    border-bottom-color: orange;
+    color: orange;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.space{
+    height: 4rem;
+    margin-bottom:4rem; 
+}
+    
+
+.container{
+    height: auto;
+    padding: 4rem 0;
+    font-family: sans-serif;
+}
+
+/*
+img{
+    border-radius: 50%;
+}
+*/
+
+.footer{
+   height: 4rem;
+    padding: 0 0.75rem;
+}
+
+.float-end .float{
+    color: black;
+}
+
+.float-end .float:hover,
+.float-end .float:focus{
+    color: orange;
+}
